@@ -36,7 +36,7 @@ Edit
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/reactjs-tutorial.git
+  https://github.com/Tanyakesharwani09/React--JS.git
 Navigate to a project folder
 
 bash

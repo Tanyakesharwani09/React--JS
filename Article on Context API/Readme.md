@@ -14,7 +14,7 @@ Performance Issues: Unnecessary re-renders in intermediary components.
 🛠️ Example
 jsx
 --------------------------------------
-**function App() {
+function App() {
   const user = "Tanya";
   return <Parent user={user} />;
 }
@@ -25,7 +25,7 @@ function Parent({ user }) {
 
 function Child({ user }) {
   return <GrandChild user={user} />;
-}**
+}
 
 function GrandChild({ user }) {
   return <h1>Hello, {user}!</h1>;
